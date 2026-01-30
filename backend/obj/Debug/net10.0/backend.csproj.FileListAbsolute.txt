@@ -12,10 +12,7 @@ C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Humanizer.d
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.UI.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.Build.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.Build.Framework.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.Build.Tasks.Core.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.Build.Utilities.Core.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
@@ -29,7 +26,6 @@ C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.E
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.NET.StringTools.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Mono.TextTemplating.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Newtonsoft.Json.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\SQLitePCLRaw.batteries_v2.dll
@@ -41,13 +37,6 @@ C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Comp
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Composition.Hosting.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Composition.Runtime.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Composition.TypedParts.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Formats.Nrbf.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Reflection.MetadataLoadContext.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Resources.Extensions.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Security.Permissions.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\System.Windows.Extensions.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -136,7 +125,6 @@ C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\runtimes\wi
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\obj\Debug\net10.0\backend.csproj.AssemblyReference.cache
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\obj\Debug\net10.0\rpswa.dswa.cache.json
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\obj\Debug\net10.0\backend.GeneratedMSBuildEditorConfig.editorconfig
@@ -291,3 +279,4 @@ C:\Users\herek\Desktop\COMP4847\Assignment\backend\obj\Debug\net10.0\refint\back
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\obj\Debug\net10.0\backend.pdb
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\obj\Debug\net10.0\backend.genruntimeconfig.cache
 C:\Users\herek\Desktop\COMP4847\Assignment\backend\obj\Debug\net10.0\ref\backend.dll
+C:\Users\herek\Desktop\COMP4847\Assignment\backend\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
