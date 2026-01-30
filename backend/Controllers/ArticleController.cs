@@ -20,15 +20,15 @@ public class ArticleController : Controller
     }
 
     // GET: ARTICLES/Details/5
-    public async Task<IActionResult> Details(int? articleid)
+    public async Task<IActionResult> Details(int? id)
     {
-        if (articleid == null)
+        if (id == null)
         {
             return NotFound();
         }
 
         var article = await _context.Article
-            .FirstOrDefaultAsync(m => m.ArticleId == articleid);
+            .FirstOrDefaultAsync(m => m.ArticleId == id);
         if (article == null)
         {
             return NotFound();
@@ -60,14 +60,14 @@ public class ArticleController : Controller
     }
 
     // GET: ARTICLES/Edit/5
-    public async Task<IActionResult> Edit(int? articleid)
+    public async Task<IActionResult> Edit(int? id)
     {
-        if (articleid == null)
+        if (id == null)
         {
             return NotFound();
         }
 
-        var article = await _context.Article.FindAsync(articleid);
+        var article = await _context.Article.FindAsync(id);
         if (article == null)
         {
             return NotFound();
@@ -80,9 +80,9 @@ public class ArticleController : Controller
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int? articleid, [Bind("Id,Title,ReleaseDate,Genre,Price")] Article article)
+    public async Task<IActionResult> Edit(int? id, [Bind("Id,Title,ReleaseDate,Genre,Price")] Article article)
     {
-        if (articleid != article.ArticleId)
+        if (id != article.ArticleId)
         {
             return NotFound();
         }
@@ -111,15 +111,15 @@ public class ArticleController : Controller
     }
 
     // GET: ARTICLES/Delete/5
-    public async Task<IActionResult> Delete(int? articleid)
+    public async Task<IActionResult> Delete(int? id)
     {
-        if (articleid == null)
+        if (id == null)
         {
             return NotFound();
         }
 
         var article = await _context.Article
-            .FirstOrDefaultAsync(m => m.ArticleId == articleid);
+            .FirstOrDefaultAsync(m => m.ArticleId == id);
         if (article == null)
         {
             return NotFound();
@@ -131,9 +131,9 @@ public class ArticleController : Controller
     // POST: ARTICLES/Delete/5
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> DeleteConfirmed(int? articleid)
+    public async Task<IActionResult> DeleteConfirmed(int? id)
     {
-        var article = await _context.Article.FindAsync(articleid);
+        var article = await _context.Article.FindAsync(id);
         if (article != null)
         {
             _context.Article.Remove(article);
@@ -143,8 +143,8 @@ public class ArticleController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    private bool ArticleExists(int? articleid)
+    private bool ArticleExists(int? id)
     {
-        return _context.Article.Any(e => e.ArticleId == articleid);
+        return _context.Article.Any(e => e.ArticleId == id);
     }
 }
